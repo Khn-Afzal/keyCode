@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.vh-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.vh-50 {
+  width: 50vw;
+  height: 50vh;
+}
+
+.form-control {
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+}
+
+.input-container {
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.input-container div {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.input-container label {
+  font-size: 1.2rem;
+}
+
+.input-container input {
+  border-radius: 2px;
+  height: 40px;
+  padding: 0 8px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.input-container input::placeholder {
+  color: green;
+  font-size: 1.2rem;
+}
