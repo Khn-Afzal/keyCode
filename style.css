@@ -69,3 +69,18 @@ body {
   color: green;
   font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .container .form-control {
+    width: 100vw;
+    height: 80vh;
+  }
+  form .input-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  form .input-container div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
